@@ -35,6 +35,7 @@
     border-radius: 8px;
     object-fit: cover; /* Maintain aspect ratio */
     transition: transform 0.3s ease; /* Add smooth hover zoom */
+    cursor: pointer;
 }
 
 .img-container img:hover {
