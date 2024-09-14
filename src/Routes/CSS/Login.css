@@ -1,0 +1,73 @@
+/* Style for the login form container */
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 70px;
+
+}
+
+p {
+    font-size: X-large;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #333;
+    width: 500px;
+    height: 500px;
+    background-color: #cfcfcf;
+  }
+  
+  /* Style for the input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Change the border color on focus */
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #dcd62e;
+    outline: none;
+  }
+  
+  /* Style for the submit button */
+  button[type="submit"] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e5e222;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  button[type="submit"]:hover {
+    background-color: #b8b125;
+  }
+  
+  /* Add spacing for the form elements */
+  form > * {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,30 @@
+/* Container for the description */
+.desc {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    padding: 20px; /* Add padding for breathing space */
+    margin: 20px 0; /* Add space around the container */
+    text-align: center; /* Center text content */ /* Limit the width for readability */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
+}
+
+/* Styling for the h3 element inside the desc */
+.desc h3 {
+    margin: 0; /* Remove default margin for better control */
+    font-size: 18px; /* Larger font for emphasis */
+    color: #333; /* Darker color for text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Clean, readable font */
+    font-weight: 50; /* Make the text bold but not too heavy */
+    line-height: 1.5; /* Improve readability with better line spacing */
+    font-style: italic;
+}
+
+.productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 5fr));
+    gap: 20px;
+    margin: 20px;
+    padding: 0 20px;
+}

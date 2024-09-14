@@ -1,0 +1,123 @@
+/* Cart Container */
+.cart-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+/* Cart Title */
+.cart-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Cart Items */
+.cart-items {
+    margin-bottom: 20px;
+}
+
+/* Individual Cart Item */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Item Image */
+.cart-item-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Cart Item Details */
+.cart-item-details {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+/* Cart Item Name */
+.cart-item-details h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Cart Item Price and Quantity */
+.cart-item-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Total Price */
+.cart-total {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Empty Cart Message */
+.cart-container h2 {
+    text-align: center;
+    color: #666;
+    margin-top: 30px;
+}
+
+.remove-item-button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-item-button:hover {
+    background-color: #ff3333;
+}
+
+.button-container{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.bt {
+    width: 200px; /* Set a fixed width for better control */
+    height: 50px; /* Set an appropriate height */
+    border-radius: 8px; /* Slightly larger radius for smoother edges */
+    background-color: #f1c40f; /* A more vibrant yellow */
+    color: #000000; /* White text color for contrast */
+    font-size: 18px; /* Larger text for better readability */
+    font-weight: bold; /* Bold text to make it stand out */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    margin: 10px 0; /* Add margin for spacing */
+    display: flex; /* Center content inside */
+    float: right;
+}
+
+.bt:hover {
+    background-color: #e1b12c; /* Slightly darker yellow on hover */
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.bt:active {
+    background-color: #d1a021; /* Even darker shade on click */
+    transform: translateY(1px); /* Slight depression on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow on click */
+}

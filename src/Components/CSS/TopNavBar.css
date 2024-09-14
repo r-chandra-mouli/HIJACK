@@ -1,0 +1,65 @@
+/* TopNavBar styles */
+.TopNavBar {
+    display: flex;
+    justify-content: space-between; /* Align heading on left, items on right */
+    align-items: center; /* Vertically center heading and items */
+    background-color: #ffffff;
+    padding: 10px 20px; /* Increase padding for better spacing */
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);/* Optional: adds a subtle shadow for better visual separation */
+}
+
+.heading {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 1500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row; /* Make sure header items are in a row */
+}
+
+.header-items {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: #e4dc38;
+    margin: 0 15px; /* Increased spacing between items */
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.header-items:hover {
+    background-color: #aca40d;
+    color: #181818;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+.header-items:active {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+
+    .TopNavBar {
+        flex-direction: column; /* Stack heading and items vertically on smaller screens */
+        align-items: flex-start; /* Left-align items */
+    }
+
+    .header {
+        justify-content: flex-start; /* Align header items to the left */
+        width: 100%;
+        margin-top: 10px; /* Add space between the heading and items */
+    }
+
+    .header-items {
+        margin: 0 5px; /* Reduce spacing between items on smaller screens */
+        padding: 8px;
+        font-size: 16px; /* Reduce font size slightly */
+    }
+}
