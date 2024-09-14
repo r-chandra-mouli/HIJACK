@@ -27,6 +27,7 @@
     justify-content: center;
     max-width: 200px;
     width: 100%;
+    cursor: pointer;
 }
 
 .img-container img {
@@ -35,7 +36,7 @@
     border-radius: 8px;
     object-fit: cover; /* Maintain aspect ratio */
     transition: transform 0.3s ease; /* Add smooth hover zoom */
-    cursor: pointer;
+    
 }
 
 .img-container img:hover {
