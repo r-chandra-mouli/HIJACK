@@ -28,6 +28,8 @@
 }
 
 .product-page button {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px 20px;
     background-color: #e0f127;
     color: rgb(0, 0, 0);
