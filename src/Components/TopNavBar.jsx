@@ -25,6 +25,7 @@ function TopNavBar(props){
     ;
     return(
         <div className="TopNavBar">
+            <img src='/logo.jpg'></img>
             <h1 className="heading">{props.name}</h1>
             <div className='header'>
                 {items}
