@@ -42,7 +42,7 @@ function Cart(props) {
                         </div>
                     </>
                 ) : (
-                    <h2>Your cart is empty.</h2>
+                    <h2>Your cart is Empty.</h2>
                 )}
             </div>
         </>
